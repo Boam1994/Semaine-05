@@ -1,0 +1,122 @@
+/* global */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2f3038;
+    padding: 0;
+    margin: 0;
+    
+}
+.main-container{
+    margin-left: 50px;
+    margin-right: 55px;
+    
+}
+img{
+    width: 50%;
+}
+/* footer */
+.main-footer{
+    background-color: #111118;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.main-footer__links-another-pages{
+    text-align: center;
+}
+.main-footer a{
+    color: #ffffff;
+    text-decoration: none;
+
+}
+.main-footer__links-networks{
+    display: flex;
+}
+
+/* header */
+
+.header__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.header__logo{
+    display: flex;
+}
+.header__logo img{
+    width: 26%;
+    height: 15%;
+    padding-right: 15px;
+}
+.header__logo h2{
+    color: #ffffff;
+}
+.links a{
+    text-decoration: none;
+    padding-right: 25px;
+    color: #ffffff;
+}
+/* home-page :index.html */
+.home-page{
+    background-color: #2f3038;
+}
+.home-page__content{
+    display: flex;
+    align-items: center;
+}
+.content__girl img{
+    margin-left: 15px;
+}
+.content__text h1{
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 2.5em;
+}
+.content__text p{
+    color: #ffffff;
+    font-size: 1.2em;
+}
+.pink-btn button{
+    padding: 13px; 
+    background-color: #bc3a80;
+    width: 55%;
+    border-radius: 16px;
+    border: none;
+}
+/* discover page */
+
+.discover{
+    display: flex;
+    justify-content: space-between;
+}
+.disvover__icons{
+    width: 50%;
+    padding-right: 30px;
+}
+.disvover__icons h1{
+    color: #ffffff;
+}
+.discover__icons--boxes{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.discover__icons__boxes--charts{
+    padding-right: 10px;
+    background-color: #111118;
+
+}
+.albums{
+    display: flex;
+    width: 40%;
+    /*flex-flow: wrap;*/
+}
+.albums__cover1, .albums__cover2{
+    grid-column: 1;
+}
+.albums__cover3, .albums__cover4{
+    grid-column: 2;
+}
